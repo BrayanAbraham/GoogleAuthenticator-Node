@@ -23,3 +23,15 @@ node server.js
 ```
 
 5. open `http://localhost:5000` on browser
+
+## Dockerfile
+
+```Dockerfile
+FROM node:12
+
+COPY ./src /app
+WORKDIR /app
+RUN npm install
+
+CMD ["npm", "run", "dev"]
+```
