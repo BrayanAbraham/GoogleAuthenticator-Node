@@ -1,0 +1,39 @@
+{
+  "name": "google-authenticator",
+  "version": "1.0.0",
+  "description": "Google Authenticator Node Implementation",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrayanAbraham/Node-Google-Authenticator.git"
+  },
+  "keywords": [
+    "Google",
+    "Authenticator",
+    "Google Authenticator"
+  ],
+  "author": "Brayan Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrayanAbraham/Node-Google-Authenticator/issues"
+  },
+  "homepage": "https://github.com/BrayanAbraham/Node-Google-Authenticator#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hi-base32": "^0.5.1",
+    "qrcode": "^1.5.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "public/*",
+      "data/*"
+    ]
+  }
+}

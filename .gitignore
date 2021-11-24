@@ -1,0 +1,3 @@
+/config/config.env
+/data/*.json
+/node_modules
